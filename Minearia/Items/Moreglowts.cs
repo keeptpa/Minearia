@@ -8,8 +8,8 @@ namespace Minearia.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("À¦°óÊ½¾ŞÁ¿Õ³ĞÔÓ«¹â°ô");
-            Tooltip.SetDefault("¡°àÛ°¡°¡°¡°¡£¡¡± \nÒç³öµÄ¹âÃ÷Õ³×¡²¢´ÌÉËÁËºÚÒ¹µÄ¹·ÑÛ");
+            DisplayName.SetDefault("æ†ç»‘å¼å·¨é‡ç²˜æ€§è§å…‰æ£’");
+            Tooltip.SetDefault("â€œå™—å•Šå•Šå•Šå•Šï¼â€ \næº¢å‡ºçš„å…‰æ˜ç²˜ä½å¹¶åˆºä¼¤äº†é»‘å¤œçš„ç‹—çœ¼");
         }
 
         public override void SetDefaults()

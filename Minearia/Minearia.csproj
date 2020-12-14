@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Items\Bandg.cs" />
+    <Compile Include="Items\Fishercannon.cs" />
     <Compile Include="Items\CreeperTrouble.cs" />
     <Compile Include="Items\dontcome.cs" />
     <Compile Include="Items\Glouw.cs" />
@@ -41,7 +42,6 @@
     <Compile Include="Items\Icehelix.cs" />
     <Compile Include="Items\Moreglow.cs" />
     <Compile Include="Items\Moreglowts.cs" />
-    <Compile Include="Items\Starguide.cs" />
     <Compile Include="Items\Tiles\Superplat.cs" />
     <Compile Include="Minearia.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />

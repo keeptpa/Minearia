@@ -7,8 +7,8 @@ namespace Minearia.Items
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("À¦°óÊ½ÊÖÀ×");
-			Tooltip.SetDefault("Æ¶ÇîºÍÉ±ÒâµÄÖÕ¼«½áºÏÌå. \n Ôã¸â£¬Õ³Ì«½ô²ğ²»µôÁË¡£");
+			DisplayName.SetDefault("æ†ç»‘å¼æ‰‹é›·");
+			Tooltip.SetDefault("è´«ç©·å’Œæ€æ„çš„ç»ˆæç»“åˆä½“. \n ç³Ÿç³•ï¼Œç²˜å¤ªç´§æ‹†ä¸æ‰äº†ã€‚");
 		}
 		public override void SetDefaults()
 		{

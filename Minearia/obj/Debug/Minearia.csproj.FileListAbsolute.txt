@@ -10,3 +10,9 @@ C:\Users\13674\Documents\My Games\Terraria\ModLoader\Mod Sources\Minearia\bin\De
 C:\Users\13674\Documents\My Games\Terraria\ModLoader\Mod Sources\Minearia\obj\Debug\Minearia.csproj.CopyComplete
 C:\Users\13674\Documents\My Games\Terraria\ModLoader\Mod Sources\Minearia\obj\Debug\Minearia.dll
 C:\Users\13674\Documents\My Games\Terraria\ModLoader\Mod Sources\Minearia\obj\Debug\Minearia.pdb
+C:\Users\13674\source\repos\keeptpa\Minearia\Minearia\bin\Debug\Minearia.dll
+C:\Users\13674\source\repos\keeptpa\Minearia\Minearia\bin\Debug\Minearia.pdb
+C:\Users\13674\source\repos\keeptpa\Minearia\Minearia\obj\Debug\Minearia.csprojAssemblyReference.cache
+C:\Users\13674\source\repos\keeptpa\Minearia\Minearia\obj\Debug\Minearia.csproj.CopyComplete
+C:\Users\13674\source\repos\keeptpa\Minearia\Minearia\obj\Debug\Minearia.dll
+C:\Users\13674\source\repos\keeptpa\Minearia\Minearia\obj\Debug\Minearia.pdb

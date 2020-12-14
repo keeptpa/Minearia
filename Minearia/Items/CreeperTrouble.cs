@@ -10,8 +10,8 @@ namespace Minearia.Items
         public override void SetStaticDefaults()
         {
             base.SetStaticDefaults();
-            DisplayName.SetDefault("³ö°üÁ¦ÅÂ");
-            Tooltip.SetDefault("ÓÎÏ·ÌØĞÔÊÇÓÎÏ·µÄÒ»²¿·Ö£¬²»Ë¬²»ÒªÍæ.");
+            DisplayName.SetDefault("å‡ºåŒ…åŠ›æ€•");
+            Tooltip.SetDefault("æ¸¸æˆç‰¹æ€§æ˜¯æ¸¸æˆçš„ä¸€éƒ¨åˆ†ï¼Œä¸çˆ½ä¸è¦ç©.");
         }
 
         public override void SetDefaults()
