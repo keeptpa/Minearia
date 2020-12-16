@@ -1,6 +1,7 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
+using Microsoft.Xna.Framework;
 
 namespace Minearia.Items
 {
@@ -8,7 +9,7 @@ namespace Minearia.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("摸头人巨炮");
+            DisplayName.SetDefault("狗头人巨炮");
             Tooltip.SetDefault(" “狗才摸鱼！” ");
         }
 
@@ -17,6 +18,7 @@ namespace Minearia.Items
             item.damage = 55;
             item.noMelee = true;
             item.ranged = true;
+            item.useAmmo = AmmoID.Bullet;
             item.channel = true; //Channel so that you can held the weapon [Important]
             item.rare = 3;
             item.width = 28;
@@ -24,8 +26,8 @@ namespace Minearia.Items
             item.useTime = 14;
             item.UseSound = mod.GetLegacySoundSlot(SoundType.Item, "Sounds/Item/Rua");
             item.useStyle = 5;
-            item.shootSpeed = 3;
-            item.useAnimation = 20;
+            item.shootSpeed = 16f;
+            item.useAnimation = 14;
             item.shoot = mod.ProjectileType("Fish");
             item.value = Item.sellPrice(silver: 60);
             item.autoReuse = true;
@@ -44,6 +46,15 @@ namespace Minearia.Items
         public override bool ConsumeAmmo(Player player)
         {
             return Main.rand.NextFloat() >= .25f;
+        }
+
+        public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
+        {
+            if (type == ProjectileID.Bullet) // or ProjectileID.WoodenArrowFriendly
+            {
+                type = mod.ProjectileType("Fish"); // or ProjectileID.FireArrow;
+            }
+            return true; // return true to allow tmodloader to call Projectile.NewProjectile as normal
         }
 
     }
