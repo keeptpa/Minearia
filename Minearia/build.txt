@@ -1,4 +1,0 @@
-author = Keep
-version = 1.0
-displayName = Minearia
-includePDB = true
